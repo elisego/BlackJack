@@ -1,0 +1,34 @@
+Blackjack
+Faire :
+Développer un jeu de Blackjack en Java, avec au moins une Play.javaclasse avec une mainméthode.
+
+Le jeu demandera une entrée au joueur (ex: prenez une carte) et lui montrera le résultat dans le terminal (ex: votre score est de 17).
+
+Après un jeu, le jeu demandera de quitter ou de redémarrer.
+
+N'oubliez pas de stocker votre jeu sur GitHub.
+
+Objet du jeu:
+Le joueur tente de battre le croupier en obtenant un décompte aussi proche de 21 que possible, sans dépasser 21.
+
+Valeurs de la carte:
+un as vaut 1 ou 11, au choix du joueur.
+les cartes face valent 10.
+toute autre carte (2 à 10) valant sa valeur correspondante.
+Le jeu :
+Le croupier donne deux cartes face visible au joueur.
+Le croupier donne une carte face visible et une carte face cachée à lui-même.
+Le joueur doit décider de demander une autre carte pour tenter de se rapprocher de 21, ou de s'arrêter
+Jusqu'à ce que le score du joueur soit inférieur ou égal à 21, il peut décider de demander des cartes supplémentaires, une à la fois.
+Si le score du joueur est supérieur à 21, le croupier gagne et le jeu s'arrête.
+
+Le jeu du croupier:
+Le croupier retournera sa carte face cachée:
+
+si le total est de 17 ou plus, il doit s'arrêter.
+si le total est inférieur ou égal à 16, il doit prendre une nouvelle carte.
+si le croupier a un as, et le compter comme 11 porterait le total à 17 ou plus (mais pas plus de 21), le croupier doit compter l'as comme 11 et s'arrêter.
+Si le score du croupier est supérieur à 21, le joueur gagne.
+
+Gagnant:
+Si ni le joueur ni le croupier n'a plus de 21, celui avec le plus grand score gagne.
